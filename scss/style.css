@@ -658,4 +658,10 @@ nav .search-btn button::before {
   display: block;
   margin-left: auto;
 }
+
+.cart.cart-open {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
 /*# sourceMappingURL=style.css.map */
