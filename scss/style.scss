@@ -569,5 +569,9 @@ nav {
 }
 
 .cart.cart-open {
-  display: flex !important;
+  display: flex;
+}
+
+.catalog.catalog-open {
+  display: block;
 }

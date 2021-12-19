@@ -1,10 +1,13 @@
 const renderGoods = (goodsData) => {
   const goodsWrapper = document.querySelector('.goods');
-  console.log(goodsData);
+
+  goodsWrapper.innerHTML = ''; //перед рендером, удаляет прошлую вёрстку, чтобы избежать дублирвоания
+
   goodsData.forEach((goodsItem) => { //метод forEach принимает callback
     goodsWrapper.insertAdjacentHTML('beforeend', `
       <div class="col-12 col-md-6 col-lg-4 col-xl-3">
         <div class="card">
+          ${goodsItem.sale ? '<div class="card-sale">🔥Hot Sale🔥</div>' : ''}
           <div class="card-img-wrapper">
             <span class="card-img-top" style=" background-image: url('${goodsItem.img}')"></span>
           </div>
