@@ -4,12 +4,13 @@ async function getData() { //str в скобках
   return await res.json();
 }
 
-function postData(cart) {
-  return fetch('https://o-zone-fbe01-default-rtdb.europe-west1.firebasedatabase.app/userorder.json', {
+async function postData(cart) {
+  const res = await fetch('https://o-zone-fbe01-default-rtdb.europe-west1.firebasedatabase.app/userorder.json', {
     method: 'POST',
     body: JSON.stringify(cart),
-    headers: { 'Content-Type': 'application/json; charset=UTF-8',}
-  }).then(res => res.json())
+    headers: { 'Content-Type': 'application/json; charset=UTF-8', }
+  });
+  return await res.json();
 }
 
 export {getData};
