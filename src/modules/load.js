@@ -1,5 +1,7 @@
-import getData from './getData';
+import {getData} from "./data";
+
 import {renderGoods} from './render';
+
 import search from './search';
 
 const load = () => {
