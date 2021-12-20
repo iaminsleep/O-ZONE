@@ -3,12 +3,12 @@ function postData() {
     method: 'POST',
     body: JSON.stringify({
       id: 0,
-      title: "sdfsdfdsf",
+      title: "Test",
       price: 3000,
       sale: false,
       img: "https://cdn1.ozone.ru/multimedia/c400/1033180284.jpg",
       hoverImg: "https://cdn1.ozone.ru/multimedia/c400/1033180283.jpg",
-      category: "Игы и софтинка"
+      category: "Test"
     }),
     headers: { 'Content-Type': 'application/json; charset=UTF-8',}
   }).then(res => res.json())
