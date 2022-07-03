@@ -32,16 +32,16 @@ header {
   display: inline-flex;
   width: auto;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   min-height: 27px;
   line-height: 1.17;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 2px 15px;
   font-family: GTEestiProText, Arial, sans-serif;
   font-size: 14px;
@@ -53,9 +53,9 @@ header {
   -webkit-transition: all 0.08s ease-in-out;
   transition: all 0.08s ease-in-out;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   margin-top: auto;
   border: 2px solid #005bff;
   font-weight: 700;
@@ -104,24 +104,24 @@ nav .logo {
 
 nav .navbar-wrapper {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 nav .control-wrapper {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 @media (max-width: 768px) {
   nav .control-wrapper {
     width: 100%;
     -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
 }
 
@@ -159,7 +159,7 @@ nav .catalog ul li:hover {
 
 nav .catalog-button {
   -ms-flex-preferred-size: 135px;
-      flex-basis: 135px;
+  flex-basis: 135px;
   cursor: pointer;
   position: relative;
 }
@@ -167,7 +167,7 @@ nav .catalog-button {
 @media (max-width: 768px) {
   nav .catalog-button {
     -ms-flex-preferred-size: 60px;
-        flex-basis: 60px;
+    flex-basis: 60px;
   }
 }
 
@@ -184,11 +184,11 @@ nav .catalog-button button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 14px;
   line-height: 18px;
   font-family: GTEestiProDisplay, Arial, sans-serif;
@@ -226,20 +226,20 @@ nav .search {
   display: flex;
   position: relative;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 nav .search-wrapper {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   border: 2px solid #005bff;
   border-right-width: 0;
   border-radius: 3px 0 0 3px;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   height: 40px;
   width: 100%;
 }
@@ -248,7 +248,7 @@ nav .search-wrapper_input {
   width: 100%;
   height: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0 0 0 8px;
   border: 1px solid transparent;
@@ -261,7 +261,7 @@ nav .search-wrapper_input {
   border-radius: 2px 0 0 2px;
   text-overflow: ellipsis;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 nav .search-btn {
@@ -270,8 +270,8 @@ nav .search-btn {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-width: 76px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -303,22 +303,22 @@ nav .search-btn button::before {
   width: 76px;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   padding-top: 8px;
   margin: 0 15px;
 }
@@ -350,7 +350,7 @@ nav .search-btn button::before {
   outline: none;
   line-height: 0;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -367,8 +367,8 @@ nav .search-btn button::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-weight: 700;
   margin-top: 15%;
 }
@@ -396,13 +396,13 @@ nav .search-btn button::before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .filter-price_label {
@@ -411,16 +411,16 @@ nav .search-btn button::before {
   padding: 0 3px 0 0;
   color: #999;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .filter-price_input {
   width: 100%;
   max-width: calc(100% - 18px);
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   font-size: 14px;
   padding: 4px 5px 6px;
   outline: 2px solid transparent;
@@ -429,9 +429,9 @@ nav .search-btn button::before {
   background: #fff;
   height: 27px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .filter-check {
@@ -449,9 +449,9 @@ nav .search-btn button::before {
   line-height: 19px;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .filter-check_label-text {
@@ -478,7 +478,7 @@ nav .search-btn button::before {
   top: 0;
   left: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background: #fff;
   border: 1px solid #005bff;
   border-radius: 2px;
@@ -566,8 +566,8 @@ nav .search-btn button::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .card-price {
@@ -601,7 +601,7 @@ nav .search-btn button::before {
 
 .cart-title {
   font-size: 28px;
-  color: #4d5f71;
+  color: #b9a4ff;
 }
 
 .cart-wrapper {
@@ -609,10 +609,10 @@ nav .search-btn button::before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 25px 0;
   border: 1px solid #4d5f713f;
   border-radius: 3px;

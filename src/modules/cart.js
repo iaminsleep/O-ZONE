@@ -45,7 +45,7 @@ function cart() {
           return item.id === +goodId;
         })
         cart.push(goodItem);
-        cartCounter.text(parseInt(cartCounter.text())+1);
+        cartCounter.text(+parseInt(cartCounter.text())+1);
       }
 
       else if(action === 'remove') {
@@ -57,6 +57,7 @@ function cart() {
           return sum + goodItem.price;
         }, 0));
         renderCart(cart);
+        cartCounter.text(+parseInt(cartCounter.text())-1);
       }
 
       localStorage.setItem('cart', JSON.stringify(cart));
