@@ -1,7 +1,7 @@
 # O-ZONE
-Сайт интернет-магазина O-Zone, свёрстанный с помощью Sass и JQuery, и базой данных на Firebase.
+The site of the OZone online store, compiled using Css and jQuery, with a basic database from Firebase.
 
-### Технологии
+### Technologies
 - html
 - css
 - sass
